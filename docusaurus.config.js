@@ -18,12 +18,12 @@ const config = {
   url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Assignment3/',
+  baseUrl: '/Assignment-3/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'emmabai02', // Usually your GitHub org/user name.
-  projectName: 'Assignment3', // Usually your repo name.
+  projectName: 'Assignment-3', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
