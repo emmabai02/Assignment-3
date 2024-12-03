@@ -25,6 +25,8 @@ const config = {
   organizationName: 'emmabai02', // Usually your GitHub org/user name.
   projectName: 'Assignment-3', // Usually your repo name.
 
+  deploymentBranch 'deploy',
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
