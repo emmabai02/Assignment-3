@@ -77,10 +77,7 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Assignment 3',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        
         items: [
           {
 
@@ -101,8 +98,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'About',
+                to: '/docs/about',
               },
             ],
           },
