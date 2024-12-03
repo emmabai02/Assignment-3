@@ -13,19 +13,12 @@ const config = {
   title: 'Technical documentation assignment 3',
   tagline: 'Welcome to my website!',
   favicon: 'img/favicon.ico',
-
-  // Set the production url of your site here
-  url: 'https://github.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: 'https://emmabai02.github.io',
   baseUrl: '/Assignment-3/',
+  organizationName: 'emmabai02', 
+  projectName: 'Assignment-3', 
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'emmabai02', // Usually your GitHub org/user name.
-  projectName: 'Assignment-3', // Usually your repo name.
 
-  deploymentBranch 'deploy',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -77,34 +70,10 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
-      navbar: {
-        title: 'Assignment 3',
-        
-        items: [
-          {
-
-            to: '/docs/About', label: 'About', position: 'left'
-          },
-          {to: '/docs/Contact', label: 'Contact', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
+     
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'About',
-                to: '/docs/about',
-              },
-            ],
-          },
           {
             title: 'Community',
             items: [
